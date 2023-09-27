@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LikeMuShoes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>LikeMuShoes</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </header>
+      <section>
+        <form action="/slap">
+          <label for="name">First Name:</label>
+          <input 
+          type="text" 
+          name="name" 
+          id="name" 
+          placeholder="First Name"
+          required
+          minlength="3"
+          maxlength="12" />
+          <label for="lastname">Last Name:</label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Last Name"
+            required
+            minlength="3"
+            maxlength="15"
+          />
+          <p>
+              What's your favorite shoes?
+          </p> 
+            <input type="radio" 
+            name="brand" 
+            id="converse" 
+            value="converse" />
+            <label for="converse">Converse</label>
+            
+            <input 
+            type="radio" 
+            name="brand" 
+            id="adidas" 
+            value="adidas" />
+            <label for="adidas">Adidas</label>
+            
+            <input
+            type="radio"
+            name="brand"
+            id="new-balance"
+            value="new-balance"
+            />
+            <label for="new-balance">New-Balance</label>
+            <p></p>
+            <button>Submit</button>
+        </form>
+      </section>
+      <article>
+          <h3>Converse</h3>
+          <figure><img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=220&q=60" alt=""></figure>
+          <figcaption>Photo by Lorem Ipsum</figcaption>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur est dolorem perspiciatis ut ex.</p>
+          <p class="fiyat">$30 USD</p>
+          <p>Free Shipping!</p>
+          <form>
+            <label for="size">Size:</label>
+            <select name="size" id="size" name="size">
+            <option value="null"></option>
+            <option value="6">6</option>
+            <option value="6.5" disabled>6.5</option>
+            <option value="7">7</option>
+            <option value="7.5" disabled>7.5</option>
+            <option value="8">8</option>
+            <option value="8.5" disabled>8.5</option>
+            <option value="9">9</option>
+            <option value="9.5" disabled>9.5</option>
+            <option value="10">10</option>
+            </select>
+            <label for="color">Color:</label>
+            <select name="color" id="color" name="color">
+              <option value="null"></option>
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <select name="quantity" id="quantity" name="quantity">
+              <option value="null"></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+            <button>Add to Cart</button>
+          </form>
+      </article>
+      <article>
+        <h3>New Balance</h3>
+        <figure><img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=220&q=60" alt=""></figure>
+        <figcaption>Photo by Lorem Ipsum</figcaption>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur est dolorem perspiciatis ut ex.</p>
+        <p class="fiyat">$45 USD</p>
+        <p>Just One Left!</p>
+        <form>
+          <label for="size1">Size:</label>
+          <select name="size1" id="size1" name="size1">
+          <option value="null"></option>
+          <option value="6">6</option>
+          <option value="6.5" disabled>6.5</option>
+          <option value="7" disabled>7</option>
+          <option value="7.5" disabled>7.5</option>
+          <option value="8" disabled>8</option>
+          <option value="8.5" disabled>8.5</option>
+          <option value="9" disabled>9</option>
+          <option value="9.5" disabled>9.5</option>
+          <option value="10" disabled>10</option>
+          </select>
+          <label for="colors">Color:</label>
+          <select name="colors" id="colors" name="colors">
+            <option value="null"></option>
+            <option value="black">Black</option>
+            <option value="white" disabled>White</option>
+            <option value="red" disabled>Red</option>
+            <option value="blue" disabled>Blue</option>
+            <option value="green" disabled>Green</option>
+          </select>
+          <label for="quantities">Quantity:</label>
+          <select name="quantities" id="quantities" name="quantities">
+            <option value="null"></option>
+            <option value="1">1</option>
+            <option value="2" disabled>2</option>
+            <option value="3" disabled>3</option>
+            <option value="4" disabled>4</option>
+          </select>
+          <button>Add to Cart</button>
+        </form>
+    </article>
+    <br>
+    <footer>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </footer>
+    </main>
+  </body>
+</html>
